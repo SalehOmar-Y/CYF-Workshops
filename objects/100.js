@@ -1,5 +1,6 @@
-// Predict and explain...
-// What will be logged by this code?
+// Predict and explain... 
+// What will be logged by this code? the output of the console. log would be:
+// "Abdi" // "Shadi" // false // undefined // false // false // true. The reason for location being false is that person1 and person2 have different locations, and person3 is a reference to person2, so it reflects the change made to person2's location. The job property does not exist in person1, hence it logs undefined.
 // Check your prediction and explanation by running the code.
 
 const person1 = {
