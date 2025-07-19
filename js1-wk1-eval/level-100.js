@@ -7,3 +7,7 @@
 // c) 67 plus 100
 
 // Write your answers below:
+
+const a = 10 * 56; 
+const b = (59 / 7).toFixed(4);
+const c = 67 + 100;

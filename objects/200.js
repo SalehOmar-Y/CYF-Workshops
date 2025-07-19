@@ -1,12 +1,12 @@
 // Predict and explain...
-// What will happen when this program is run?
+// What will happen when this program is run? console.log will log the following: true, undefined, true
 // Check your prediction and explanation by running the program.
 // Fix anything that needs fixing.
 
 const person = {
     "name": "Jemima",
-    "location",
-    "id_number" = 9,
+    "location": "Glasgow",
+    "id_number": 9,
 };
 
 console.assert(person.name === "Jemima");

@@ -1,5 +1,5 @@
 // Predict and explain...
-// What will happen when this program is run?
+// What will happen when this program is run? n
 // Check your prediction and explanation by running the program.
 // Fix anything that needs fixing.
 
@@ -10,7 +10,9 @@ const person = {
 };
 
 function assertFieldEquals(object, field, targetValue) {
-    console.assert(object.field === targetValue);
+    console.log (`Checking if ${object.name}'s ${field} is ${targetValue}`);
+    console.assert(object [field] === targetValue);
 }
 
 assertFieldEquals(person, "favourite_ice_cream", "vanilla");
+assertFieldEquals(person, "favourite_topping", "marshmallows");
