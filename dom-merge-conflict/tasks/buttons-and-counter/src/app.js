@@ -31,6 +31,9 @@ export function App() {
   button.addEventListener("click", () => {
     increment(counter);
   });
-
+ const derementButton = body.querySelector("#decrement");
+  derementButton.addEventListener("click", () => {
+    decrement(counter);
+  });
   return body;
 }
