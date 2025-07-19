@@ -1,11 +1,11 @@
 // Predict and explain...
-// What will happen when this program is run?
+// What will happen when this program is run? 
 // Check your prediction and explanation by running the program.
-// Fix anything that needs fixing.
+// Fix anything that needs fixing. 
 
 function checkLivesNearCYF(person) {
     const cyfLocations = ["Birmingham", "Cape Town", "Glasgow", "London", "Manchester"];
-    return cyfLocations.includes(person.location);
+    return cyfLocations.includes(person.city);
 }
 
 const mo = {
